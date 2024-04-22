@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(209, 235, 244);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.stopwatch{
+    width: 70%;
+    max-width: 600px;
+    margin: auto;
+    height: 270px;
+    margin-top: 20vh;
+    /* background-color: lightblue; */
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("./background.png");
+    background-size: cover;
+    background-position: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+.stopwatch h1{
+    margin: 80px;
+    margin-top: 40px;
+    color: azure;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    font-size: 40px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 20px;
+   
+}
+.buttons img{
+    width: 50px;
+}
+.buttons>button:nth-of-type(2)>img{
+    width: 80px;
+}
+.buttons button{
+    background: none;
+    border: none;
+}
